@@ -11,17 +11,17 @@ def get_env_var(var_name, default=None, required=False):
         raise ValueError(f"Environment variable {var_name} is required but not set.")
     return value
     
-API_ID = 24885991
+API_ID = 
 
-API_HASH = "81b0b8063ee70c1475e95e58d06e15ee"
+API_HASH = ""
 
-BOT_TOKEN = "7404841712:AAEgovK1uUzj8uA-qpfoDHxkeg6P7pbCUCA"
+BOT_TOKEN = ""
 
 BOT_ID = 7404841712
 
 BOT_USERNAME = "soul_musixbot"
 
-MONGO_DB_URI = "mongodb+srv://aizenxmongo:0vmRucmzTP26cKTs@cluster0.nlvql.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = ""
 
 DURATION_LIMIT_MIN = int(get_env_var("DURATION_LIMIT", 500000))
 
@@ -59,7 +59,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(get_env_var("TG_AUDIO_FILESIZE_LIMIT", 2147483648)
 TG_VIDEO_FILESIZE_LIMIT = int(get_env_var("TG_VIDEO_FILESIZE_LIMIT", 2147483648))
 
 
-STRING1 = "BQF7uucAI13M7TdI1AG0zMpO3HVOojfDeoiDHER86vBtIkSzW485otS6VQ1HCDyiSBEJ-_7rYWsKDNitE8ClO4PjQyh5MIiGDd9Ma5m7xJf7ie1tSW5YYiczTkDxi6MW2ALLv5dfDGDsx24IJRsuOxyCiv7ylo8XLb8YOt8xbjiWpDQegj9Hl0Jhv2FtGX64s-iR9E4izix1NcyM3Y3-YI1TRR-V2AepWu52A8gmkPZN3j46b3bALbhfqw2YPtd-BMiDrnXdwZghrTD__ussZjnnnf5jn_LBZoZmPSFeWTfU2F05-vrCxq-SoPZM53KuolvwQbSjs9WjZ8UB0HF5iTS0w45dTAAAAAGXyEqDAA"
+STRING1 = ""
 STRING2 = get_env_var("STRING_SESSION2", None)
 STRING3 = get_env_var("STRING_SESSION3", None)
 STRING4 = get_env_var("STRING_SESSION4", None)
